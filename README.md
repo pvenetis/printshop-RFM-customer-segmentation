@@ -11,11 +11,10 @@
   - [Frequency](#frequency)
   - [Monetary](#monetary)
   - [RFM Scores](#rfm-scores)
-- [Segmentation Rules](#segmentation-rules)
+- [Customer Segmentation](#customer-segmentation)
 - [Key Insights](#key-insights)
 - [Recommended Visuals](#recommended-visuals)
 - [Business Recommendations](#business-recommendations)
-- [Future Improvements](#future-improvements)
 - [Dashboard](#dashboard)
 
 ---
