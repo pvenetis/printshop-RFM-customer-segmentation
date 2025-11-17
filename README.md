@@ -34,6 +34,7 @@ The goal is to demonstrate:
 ## Tools Used
 
 - Excel
+- Power Query
 - Power BI
 
 ---
