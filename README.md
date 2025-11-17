@@ -1,6 +1,6 @@
 # Print Shop Customer Segmentation using RFM Analysis
 
-> Customer analytics project using Excel, Power Query, and RFM segmentation to identify best customers, at-risk groups, and actionable retention opportunities. A Power BI dashboard will be added to visualize customer behavior and segment insights.
+> Customer analytics project using Excel, and RFM segmentation to identify best customers, at-risk groups, and actionable retention opportunities. A Power BI dashboard will be added to visualize customer behavior and segment insights.
 
 ### Table of Contents
 - [Project Overview](#project-overview)
