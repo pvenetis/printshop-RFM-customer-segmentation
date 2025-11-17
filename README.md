@@ -138,11 +138,19 @@ Customer groups are defined based on combined RFM scores:
 
 ## Key Insights
 
-- **Best Customers**: Core group driving most revenue; highly engaged.  
-- **Loyal Customers**: Repeat buyers who are very valuable; strong retention potential.  
-- **Potential Loyal Customers**: Largest segment; represents biggest growth opportunity.  
-- **Need Attention**: Customers with declining activity; require targeted re-engagement.  
-- **At Risk**: Historically valuable but inactive customers; low numbers but high potential for recovery.
+| Segment                  | Count | Description / Findings |
+|--------------------------|-------|-----------------------|
+| Best Customers           | 61    | Core revenue drivers; high engagement and repeat purchases. |
+| Loyal Customers          | 75    | Strong retention potential; frequently purchase high-value items. |
+| Potential Loyal Customers| 81    | Largest group; major opportunity for targeted campaigns to increase loyalty. |
+| Need Attention           | 57    | Moderate engagement; may lapse without targeted retention efforts. |
+| At Risk                  | 13    | Small but historically valuable; time-sensitive re-engagement could recover revenue. |
+| **Total Customers**      | 287   | Full customer base analyzed for segmentation and strategy. |
+
+**Quick Insights:**
+- The **Best + Loyal** groups form a solid core of repeat buyers (~136 customers).  
+- **Potential Loyal** is the largest segment, representing the biggest growth opportunity (~28% of customers).  
+- **Need Attention** and **At Risk** segments are smaller but critical for retention; proactive campaigns could recover revenue.
 
 ---
 
