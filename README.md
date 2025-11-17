@@ -178,11 +178,10 @@ Customer groups are defined based on combined RFM scores:
 ---
 
 **See the raw data and analysis artifacts:**
-- 📊 [Excel Workbook with Pivot Tables](./EDA/EDA_Sales_Insights.xlsx)  
-- 🧠 [SQL Queries](./SQL)  
-- 🧾 [Data Preparation Files](./Data/Profiling_and_Cleaning)  
-- 📈 [Power BI Dashboard](./Dashboard)
+- 📊 [Excel Workbook with Pivot Tables](./analysis/printshop_rfm_analysis.xlsx)
+- 🧾 [Raw Dataset](./data/print_shop_orders_raw.csv)  
+- 📈 [Power BI Dashboard](./dashboard/print_shop_dashboard.pbix)
 
 ---
 
-*© 2025 Peri Venetis – DataFlow Cloud SaaS Analysis Project*
+*© 2025 Peri Venetis – Print Shop Customer Segmentation using RFM Analysis*
