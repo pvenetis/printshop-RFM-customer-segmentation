@@ -1,4 +1,4 @@
-# printshop-RFM-customer-segmentation
+# Print Shop Customer Segmentation using RFM Analysis
 
 > Customer analytics project using Excel, Power Query, and RFM segmentation to identify best customers, at-risk groups, and actionable retention opportunities. A Power BI dashboard will be added to visualize customer behavior and segment insights.
 
@@ -96,7 +96,7 @@ RFM = R + F + M
     B2 <= PERCENTILE.INC($B$2:$B$288,0.4), 4,
     B2 <= PERCENTILE.INC($B$2:$B$288,0.6), 3,
     B2 <= PERCENTILE.INC($B$2:$B$288,0.8), 2,
-    TRUE, 1
+    B2 > PERCENTILE.INC($B$2:$B$288,0.8), 1
 )
 ```
 
@@ -107,7 +107,7 @@ RFM = R + F + M
     C2 >= PERCENTILE.INC($C$2:$C$288,0.6), 4,
     C2 >= PERCENTILE.INC($C$2:$C$288,0.4), 3,
     C2 >= PERCENTILE.INC($C$2:$C$288,0.2), 2,
-    TRUE, 1
+    C2 < PERCENTILE.INC($C$2:$C$288,0.2), 1
 )
 ```
 
@@ -118,7 +118,7 @@ RFM = R + F + M
     D2 >= PERCENTILE.INC($D$2:$D$288,0.6), 4,
     D2 >= PERCENTILE.INC($D$2:$D$288,0.4), 3,
     D2 >= PERCENTILE.INC($D$2:$D$288,0.2), 2,
-    TRUE, 1
+    D2 < PERCENTILE.INC($D$2:$D$288,0.2), 1
 )
 ```
 
@@ -126,17 +126,14 @@ RFM = R + F + M
 
 Customer groups are defined based on combined RFM scores:
 
-| Segment                  | Criteria                     |
-|--------------------------|------------------------------|
-| Best Customers           | Highest RFM scores           |
-| Loyal Customers          | High F and M scores          |
-| Potential Loyal Customers| Moderate R and F scores      |
-| Need Attention           | Low to moderate R scores     |
-| At Risk                  | Lowest R scores, low engagement |
+| Segment                   | Criteria                               |
+|---------------------------|----------------------------------------|
+| Best Customers            | Highest RFM scores (≥ 13)              |
+| Loyal Customers           | High F and M scores (≥ 10)             |
+| Potential Loyal Customers | Moderate R and F scores (≥ 7)          |
+| Need Attention            | Low to moderate R scores (≥ 4)         |
+| At Risk                   | Lowest R scores, low engagement (< 4)  |
 
-```excel
-=IFS(H2>=13,"Best Customers",H2>=10,"Loyal Customers",H2>=7,"Potential Loyal Customers",H2>=4,"Need Attention",TRUE,"At Risk")
-```
 ---
 
 ## Key Insights
