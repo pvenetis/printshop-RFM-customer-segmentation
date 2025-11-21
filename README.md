@@ -181,7 +181,7 @@ Customer groups are defined based on combined RFM scores:
 **See the raw data and analysis artifacts:**
 - 📊 [Excel Workbook with Pivot Tables](./analysis/printshop_rfm_analysis.xlsx)
 - 🧾 [Raw Dataset](./data/print_shop_orders_raw.csv)  
-- 📈 [Power BI Dashboard](./dashboard/print_shop_dashboard.pbix)
+- 📈 [Power BI Dashboard](./dashboard/print_shop_dashboard.pdf)
 
 ---
 
