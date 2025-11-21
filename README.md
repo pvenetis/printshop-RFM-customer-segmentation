@@ -23,7 +23,11 @@
 ## Project Overview
 
 This project focuses on analyzing a print shop business that sells products such as **Greeting Cards, Business Cards, Photo Books, Canvas Prints, Flyers, and Posters**.  
-The goal is to understand **who the best customers are, which segments need retention campaigns, which segments represent growth opportunities, and which segments can be deprioritized**.
+The goal is to understand:  
+- Who the **best customers** are  
+- Which segments need **retention campaigns**  
+- Which segments represent **growth opportunities**  
+- Which segments can be **deprioritized**  
 
 ---
 
