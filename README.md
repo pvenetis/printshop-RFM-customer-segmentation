@@ -228,7 +228,3 @@ Customer groups are defined based on combined RFM scores:
 ---
 
 *© 2025 Peri Venetis – Print Shop Customer Segmentation using RFM Analysis*
-
----
-
-*© 2025 Peri Venetis – Print Shop Customer Segmentation using RFM Analysis*
