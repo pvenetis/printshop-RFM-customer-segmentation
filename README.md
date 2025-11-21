@@ -6,6 +6,7 @@
 > A Power BI dashboard visualizes customer segments, revenue contribution, product mix, and behavioral metrics for actionable insights and strategic decision-making.
 
 ### Table of Contents
+- [Project Overview](#project-overview)
 - [Executive Summary](#executive-summary)
 - [Tools Used](#tools-used)
 - [Dataset Description](#dataset-description)
@@ -22,9 +23,16 @@
 
 ---
 
+## Project Overview
+
+This project focuses on analyzing a print shop business that sells products such as **Greeting Cards, Business Cards, Photo Books, Canvas Prints, Flyers, and Posters**.  
+The goal is to understand **who the best customers are, which segments need retention campaigns, which segments represent growth opportunities, and which segments can be deprioritized**.
+
+---
+
 ## Executive Summary
 
-This project analyzes ~1,000 print shop orders using RFM (Recency, Frequency, Monetary) segmentation to understand customer behavior, revenue contribution, and product preferences.  
+This project analyzes ~1,000 print shop orders using RFM segmentation to understand customer behavior, revenue contribution, and product preferences.  
 
 Key findings:
 - The **Best + Loyal** customers (~136 people) generate ~70% of total revenue. Top revenue-driving products are **Canvas Print** and **Photo Book** for Best Customers, and **Business Card** and **Greeting Card** for Loyal Customers.  
@@ -215,6 +223,10 @@ Customer groups are defined based on combined RFM scores:
 - 📊 [Excel Workbook with Pivot Tables](./analysis/printshop_rfm_analysis.xlsx)  
 - 🧾 [Raw Dataset](./data/print_shop_orders_raw.csv)  
 - 📈 [Power BI Dashboard Screenshot](./dashboard/Print_shop_All_View.PNG)
+
+---
+
+*© 2025 Peri Venetis – Print Shop Customer Segmentation using RFM Analysis*
 
 ---
 
