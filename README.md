@@ -2,9 +2,6 @@
 
 > For more of my projects and analytics journey, visit my [Portfolio](https://pvenetis.github.io/).
 
-> This project analyzes ~1,000 print shop orders using RFM (Recency, Frequency, Monetary) segmentation to understand customer behavior, identify high-value buyers, highlight segments that need retention efforts, and determine which segments can be deprioritized.  
-> A Power BI dashboard visualizes customer segments, revenue contribution, product mix, and behavioral metrics for actionable insights and strategic decision-making.
-
 ### Table of Contents
 - [Project Overview](#project-overview)
 - [Executive Summary](#executive-summary)
