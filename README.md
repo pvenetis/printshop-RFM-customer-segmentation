@@ -1,7 +1,7 @@
 # Print Shop Customer Segmentation using RFM Analysis
 
-> This project analyzes ~1,000 print shop orders using RFM (Recency, Frequency, Monetary) segmentation to understand customer behavior, identify high-value buyers, and highlight opportunities for retention and growth.  
-> A Power BI dashboard visualizes customer segments, revenue contribution, product mix, and behavioral metrics for actionable insights.
+> This project analyzes ~1,000 print shop orders using RFM (Recency, Frequency, Monetary) segmentation to understand customer behavior, identify high-value buyers, highlight segments that need retention efforts, and determine which segments can be deprioritized.  
+> A Power BI dashboard visualizes customer segments, revenue contribution, product mix, and behavioral metrics for actionable insights and strategic decision-making.
 
 ### Table of Contents
 - [Executive Summary](#executive-summary)
@@ -141,14 +141,13 @@ Customer groups are defined based on combined RFM scores:
 
 ## Key Insights
 
-| Segment                   | Count | Revenue Contribution | Description / Findings |
+| Segment                   | Count | Revenue Contribution (%) | Description / Findings |
 |---------------------------|-------|-------------------|-----------------------|
-| Best Customers            | 61    | 39.30% ($6,763.97) | Core revenue drivers; high engagement and repeat purchases. Product mix is fairly balanced, with **Canvas Print** and **Photo Book** driving the most revenue. |
-| Loyal Customers           | 75    | 30.27% ($5,209)   | Consistent buyers with strong retention potential. Top revenue-driving products are **Business Card** and **Greeting Card**. |
-| Potential Loyal Customers | 81    | 21.79% ($3,749)   | Largest group; significant growth potential. Focused engagement could increase frequency and value. |
-| Need Attention            | 57    | 7.83% ($1,348)    | Moderate engagement; primarily order **Greeting Cards** (~35% of orders). Targeted promotions could recover revenue. |
-| At Risk                   | 13    | 0.81% ($~140)     | Minimal revenue impact; can be deprioritized in short-term strategy. |
-| **Total Customers**       | 287   | 100% ($17,209.97) | Full customer base analyzed for segmentation and strategy. |
+| Best Customers            | 61    | 39.30%  | Core revenue drivers; high engagement and repeat purchases. Product mix is fairly balanced, with **Canvas Print** and **Photo Book** driving the most revenue. |
+| Loyal Customers           | 75    | 30.27%   | Consistent buyers with strong retention potential. Top revenue-driving products are **Business Card** and **Greeting Card**. |
+| Potential Loyal Customers | 81    | 21.79%   | Largest group; significant growth potential. Focused engagement could increase frequency and value. |
+| Need Attention            | 57    | 7.83%    | Moderate engagement; primarily order **Greeting Cards** (~35% of orders). Targeted promotions could recover revenue. |
+| At Risk                   | 13    | 0.81%     | Minimal revenue impact; can be deprioritized in short-term strategy. |
 
 **Quick Takeaways:**
 - **Best + Loyal** groups (~136 customers) form the revenue core (~70% of total). Retention is key, with top products identified per segment.  
@@ -160,7 +159,7 @@ Customer groups are defined based on combined RFM scores:
 
 ## Segmentation Priority Matrix
 
-| Segment                   | Revenue % | Priority | Action Focus |
+| Segment                   | Revenue (%) | Priority | Action Focus |
 |---------------------------|-----------|----------|--------------|
 | Best Customers            | 39.30%    | 🔵 High Retention | Maintain engagement, upsell Canvas Print and Photo Book, VIP perks |
 | Loyal Customers           | 30.27%    | 🟢 Strong | Loyalty programs, cross-sell Business Card and Greeting Card, referrals |
