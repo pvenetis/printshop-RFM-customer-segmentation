@@ -33,7 +33,7 @@ The goal is to understand:
 
 ## Executive Summary
 
-This project analyzes ~1,000 print shop orders using RFM segmentation to understand customer behavior, revenue contribution, and product preferences.  
+Using RFM segmentation on ~1,000 print shop orders, this analysis evaluates customer behavior, revenue contribution, and product preferences.
 
 Key findings:
 - The **Best + Loyal** customers (~136 people) generate ~70% of total revenue. Top revenue-driving products are **Canvas Print** and **Photo Book** for Best Customers, and **Business Card** and **Greeting Card** for Loyal Customers.  
